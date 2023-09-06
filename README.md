@@ -8,8 +8,8 @@ Studiju kursa Datormācībā (pamatkurss) elektroniskā klade
  ~~Strikethrough:~~ ~~ ~~  
  **Bold and nested _italic_:** ** ** un _ _  
  **_All bold and italic:_** *** ***  
- <sub>Subscript:</sub> *<sub> </sub>*  
- <sup>Superscript:</sup> *<sup> </sup>*
+ <sub>Subscript:</sub> *(<sub>) (</sub>)*  
+ <sup>Superscript:</sup> *(<sup>) (</sup>)*
 
  Line Break: two spaces or <br>
  
