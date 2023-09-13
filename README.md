@@ -21,6 +21,7 @@ Studiju kursa Datormācībā (pamatkurss) elektroniskā klade
  cd - change directory  
  mkdir - make directory (folder)  
  rmdir - remove directory  
+ rm - remove file  
  echo - returns a string  
  cat - concatenate (reads and outputs content from file)  
  hexdump (hd) - returns a file's code in a readable format (according to user specification)  
