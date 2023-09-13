@@ -1,0 +1,77 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls -l
+    4  ls -a
+    5  ls
+    6  clear
+    7  pwd
+    8  cd .
+    9  cd ..
+   10  pwd
+   11  cd ..
+   12  pwd
+   13  cd ..
+   14  cd .
+   15  clear
+   16  cd home
+   17  cd user
+   18  cd ..
+   19  cd user
+   20  ls
+   21  tree
+   22  cd ..
+   23  tree
+   24  ls
+   25  cd home
+   26  cd user
+   27  cd ..
+   28  cd
+   29  cd 
+   30  cd
+   31  cd cd
+   32  mkdir
+   33  mkdir --help
+   34  mkdir test1
+   35  test1
+   36  cd test1
+   37  list
+   38  ls
+   39  cd ..
+   40  ls
+   41  cd test1
+   42  ls test1/
+   43  ls test1
+   44  ls -l test1/
+   45  ls -l test1
+   46  cd
+   47  ls test1/
+   48  cd test1
+   49  rmdir
+   50  cd ..
+   51  rmdir test1
+   52  cd test1
+   53  $?
+   54  echo d
+   55  echo 123
+   56  echo 123 > a.txt
+   57  a.txt
+   58  ls
+   59  ls a.txt
+   60  echo wabba > asasasas.txt
+   61  ls -lt a.txt
+   62  ls a.txt
+   63  ls -lt asasasas.txt
+   64  hexdump --help
+   65  hexdump a.txt
+   66  echo fff >> a.txt
+   67  cat a.txt
+   68  hexdump a.txt
+   69  hexdump -C a.txt
+   70  hexdump --help
+   71  echo --help
+   72  echo
+   73  --help
+   74  touch c.txt
+   75  ls
+   76  cat c.txt
+   77  history > history.txt
