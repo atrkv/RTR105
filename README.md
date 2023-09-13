@@ -28,9 +28,9 @@ Studiju kursa Datormācībā (pamatkurss) elektroniskā klade
  tree - shows file tree from current directory  
  touch - create empty file/modify timestamps  
  mv - rename/move files  
-     ~rename: mv a.txt b.txt  
-     ~move: mv a.txt Downloads  
+     //rename: mv a.txt b.txt  
+     //move: mv a.txt Downloads  
  cp - copy file  
-      ~cp abc.txt abccopy.txt  
+      //cp abc.txt abccopy.txt  
  
     
