@@ -1,0 +1,63 @@
+77a78,139
+>    78  cat history.txt
+>    79  ls
+>    80  mv bitmap.png Downloads
+>    81  ls Downloads
+>    82  cd downloads
+>    83  cd Downloads
+>    84  mv bitmap.png thingy.png
+>    85  ls
+>    86  clear
+>    87  historuy
+>    88  history
+>    89  whereis rm
+>    90  cd /bin/rm /usr/share/man/man1
+>    91  $path
+>    92  echo $PATH
+>    93  cd games
+>    94  cd bin
+>    95  cd ..
+>    96  cd games
+>    97  cd ..
+>    98  ls
+>    99  sc
+>   100  cd
+>   101  cd /bin
+>   102  ls
+>   103  cd ..
+>   104  cd bin
+>   105  cat ls
+>   106  cd ..
+>   107  cd
+>   108  nano --help
+>   109  mkdir test1
+>   110  cd test1
+>   111  nano testscript1.sh
+>   112  ls
+>   113  testscript1.sh
+>   114  chmod 754 testscript1.sh
+>   115  testscript1.ch
+>   116  ls -lt
+>   117  /testscript1.sh
+>   118  ls
+>   119  clear
+>   120  cd
+>   121  PATH
+>   122  PATH=$PATH:~
+>   123  echo $PATH
+>   124  testscript1.sh
+>   125  ls
+>   126  cd test1
+>   127  mv test1 ~
+>   128  mv testscript1.sh ~
+>   129  cd
+>   130  testscript1.sh
+>   131  PATH=$PATH:~/test1
+>   132  testscript1.sh
+>   133  cd test1
+>   134  testscript1.sh
+>   135  nano testscript1.sh
+>   136  testscript1.sh
+>   137  nano
+>   138  history
+>   139  history > history2.txt
