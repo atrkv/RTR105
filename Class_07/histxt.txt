@@ -1,0 +1,49 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/atrkv/RTR105
+    4  cd RTR105
+    5  mkdir Class_07
+    6  cd Class_07
+    7  nano ievadstest1.c
+    8  gcc ievadstest1.c
+    9  nano ievadstest1.c
+   10  gcc ievadstest1.c
+   11  ./a.out
+   12  nano ievadstest1.c
+   13  gcc ievadstest1.c
+   14  ./a.out
+   15  nano ievadstest1.c
+   16  gcc ievadstest1.c
+   17  nano ievadstest1.c
+   18  gcc ievadstest1.c
+   19  ./a.out
+   20  nano ievadstest1.c
+   21  gcc ievadstest1.c
+   22  nano ievadstest1.c
+   23  gcc ievadstest1.c
+   24  nano ievadstest1.c
+   25  gcc ievadstest1.c
+   26  ./a.out
+   27  nano ievadstest1.c
+   28  gcc ievadstest1.c
+   29  nano ievadstest1.c
+   30  gcc ievadstest1.c
+   31  ./a.out
+   32  nano ievadstest1.c
+   33  gcc ievadstest1.c
+   34  ./a.out
+   35  nano ievadstest1.c
+   36  gcc ievadstest1.c
+   37  ./a.out
+   38  nano ievadstest1.c
+   39  gcc ievadstest1.c
+   40  nano ievadstest1.c
+   41  gcc ievadstest1.c
+   42  nano ievadstest1.c
+   43  gcc ievadstest1.c
+   44  nano ievadstest1.c
+   45  gcc ievadstest1.c
+   46  nano ievadstest1.c
+   47  gcc ievadstest1.c
+   48  ./a.out
+   49  history > histxt.txt
