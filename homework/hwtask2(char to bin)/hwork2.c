@@ -33,10 +33,10 @@ int main (void) {
     printf("%d",(val4>>7)*-1);
     printf("%d",(val5>>7)*-1);
     printf("%d",(val6>>7)*-1);
-    printf("%d",(val7>>7)*-1);
+    printf("%d\n",(val7>>7)*-1);
     if (value < 0)
     {
-        printf("\n(Two's complement)");
+        printf("(Two's complement)\n");
     };
     
     return 0;
