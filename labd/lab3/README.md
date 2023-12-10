@@ -32,3 +32,13 @@ Izmantojot ```>>``` operatoru linux sistēmā, ierakstījām atan_derivative.c i
 ```
 ## derivative.gp
 derivative.gp ir gnuplot kods, kurš attēlo atan(x) funkcijas kā arī punktus ierakstītus derivative.dat failā lai izpildīto darbu varētu pārbaudīt. Redzot, ka atan(x) funkcija un tās dažādas atvasināšanas pārklājas, var secināt, ka darbs ir izpildīts.   
+
+```gnuplot
+plot [0:2*pi] (1/(x*x+1)),\
+              atan(x),\
+              "derivative.dat" every ::1 using 1:2 with lines title "atan(x)", \
+              "derivative.dat" every ::1 using 1:3 with lines title "atan'(x) (finite difference)",\
+              "derivative.dat" every ::1 using 1:3 with lines title "atan''(x) (finite difference)",\
+              "derivative.dat" every ::1 using 1:4 with lines title "atan'(x) (quotient)",\
+              "derivative.dat" every ::1 using 1:5 with lines title "atan''(x) (quotient)"
+```
