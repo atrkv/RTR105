@@ -15,7 +15,7 @@ printf("%10.2f\t%10.2f\n",1/(x*x+1),-2*x/((x*x+1)*(x*x+1)));
 x+=delta_x;
 }
 ```
-Vēlāk kods tika izmainīts (V2), šoreiz saglabājot datus massīvos, nevis parasti izrakstot tos terminālā, kā arī masīvi izmantoja datus iepriekš ierakstītus citos masīvos. Piemēram, aprēķinos vairāk nav izmantots "delta_x", bet tas tiek aprēķināts no X un iepriekšējās X vērtības.
+Vēlāk kods tika izmainīts (V2), šoreiz saglabājot datus massīvos, nevis parasti izrakstot tos terminālā, kā arī masīvi izmantoja datus iepriekš ierakstītus citos masīvos. Piemēram, aprēķinos vairs nav izmantots "delta_x", bet tas tiek aprēķināts no X un iepriekšējās X vērtības.
 
 ```c
 int n=1;
