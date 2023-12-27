@@ -25,8 +25,8 @@ xarr[n] = x;
 atanx[n] = atan(xarr[n]);
 atandx[n] = ((atanx[n]-atanx[n-1])/(xarr[n]-xarr[n-1]));
 atanddxx[n] = (((atanx[n]-atanx[n-1])-(atanx[n-1]-atanx[n-2]))/(xarr[n]-xarr[n-1]))/(xarr[n]-xarr[n-1]);
-atandxa[n]=(1/(xarr[n]*xarr[n]+1));
-atanddxxa[n]=(-2*xarr[n]/((xarr[n]*xarr[n]+1)*(xarr[n]*xarr[n]+1)));
+atandxa[n] = (1/(xarr[n]*xarr[n]+1));
+atanddxxa[n] = (-2*xarr[n]/((xarr[n]*xarr[n]+1)*(xarr[n]*xarr[n]+1)));
 
 printf("\n%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f",xarr[n],atanx[n],atandx[n],atanddxx[n],atandxa[n],atanddxxa[n]);
 x+=delta_x;
