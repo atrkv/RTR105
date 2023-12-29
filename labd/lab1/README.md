@@ -20,6 +20,8 @@ Izmantotā formula:
 "                                                         "
 ```
 
+Šī formula ir izmantota ciklā, kurš atkārtojās 500 reizes, lai iegūtu apmierinoši precīzu rezultātu.
+
 ``` c
 double loopvalue = XValue;
 //MACLAURIN/TAYLOR SERIES
@@ -30,3 +32,13 @@ loopvalue = loopvalue+(pow(-1,k)*pow(XValue,(2*k+1))/((2*k+1)));
 
 output = loopvalue;
 ```
+
+Piemērs:  
+```x = 0.9276```  
+
+Koda rezultāts:  
+```
+C atan(0.927600) = 0.747856
+Taylor atan(0.927600) = 0.747856
+```
+Kods izrāda arī precīzu ```atan(x)``` vērtību izmantojot iekļautu ```math.h``` bibliotēkā formulu, kas ļauj salīdzināt rezultātus.
