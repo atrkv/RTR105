@@ -12,3 +12,10 @@ Kompilējot un palaižot kodu, lietotājam ir dota iespēja ievadīt ```a```,```
 ```c``` ir funkcijas vertikālā nobīde.
 
 Pēc datu ievadīšanas kods pārbaudīs, vai ```y = 0``` var eksistēt starp ```a``` un ```b``` robežām, aprēķinot un pārbaudot, vai ```atan(a)+c``` un ```atan(b)+c``` ir vienādās zīmes. Ja ```(atan(a)+c) * (atan(b)+c) > 0``` tad abas vērtības atrodas vai nu zem vai nu virs "nulles", kas nozīmē, ka ```y = 0``` starp tiem neeksistē.
+
+``` c
+if(funkca*funkcb>0){
+printf("Intervala[%.2f;%.2f]atan(x)funkcijai",a,b);
+printf("saknu nav (vai tajaa ir paru saknu skaits)\n");
+return 1;}
+```
