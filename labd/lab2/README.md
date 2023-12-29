@@ -21,7 +21,7 @@ printf("saknu nav (vai tajaa ir paru saknu skaits)\n");
 return 1;}
 ```
 
-Ja ar vērtībām nav problēmu, kods atradīs ```x``` koordinātu pa vidu starp ```a``` un ```b```, aprēķinās ```atan(x)+c``` vērtību, un atkarībā no vērtības zīmes, nobīdīs ```a``` vai ```b``` vērtību tuvāk nullei, pēc kā tas atkārtos šī darbību līdz ```a``` un ```b``` būs pietiekoši tuvi pie ```y = 0``` un ```x``` vērtība būtu pietiekoši precīza (kā to pieprasīja lietotājs).
+Ja ar vērtībām nav problēmu, kods atradīs ```x``` koordinātu pa vidu starp ```a``` un ```b```, aprēķinās ```atan(x)+c``` vērtību, un atkarībā no vērtības zīmes, nobīdīs ```a``` vai ```b``` vērtību tuvāk nullei, pēc kā tas atkārtos šī darbību līdz ```a``` un ```b``` būs pietiekoši tuvi viens otram un ```x``` vērtība būtu pietiekoši precīza (kā to pieprasīja lietotājs).
 
 ``` c
 while((b-a)>delta_x){
