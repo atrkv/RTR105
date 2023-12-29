@@ -6,6 +6,20 @@
 
 Kompilējot un palaižot kodu, lietotājam ir prasīts ievadīt ```x``` vērtību starp ```-1``` un ```1```, pēc kā ievadītā ```x``` vērtība tiek izmantota aprēķinos.  
 
+Izmantotā formula: 
+```c
+"           500                                           "
+"          -----                                          "
+"          \\                k     -1-2k                  "
+"           \\          (-1)  * x                         "
+"atan(x) = >   _______________                            "
+"           /             1+2k                            "
+"          /                                              "
+"          -----                                          "
+"           k=0                                           "
+"                                                         "
+```
+
 ``` c
 double loopvalue = XValue;
 //MACLAURIN/TAYLOR SERIES
