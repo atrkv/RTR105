@@ -25,10 +25,9 @@ Ja ar vērtībām nav problēmu, kods atradīs ```x``` koordinātu pa vidu starp
 
 ``` c
 while((b-a)>delta_x){
-k++;//k=k+1;//k+=1;
+k++;
 x=(a+b)/2.;
-if(funkca*(atan(x)-c)>0)//piea=0−>funkca=0−>reizinaajumsirpreciizi0
-//visulaiku->visulaika"straadaa"b=x
+if(funkca*(atan(x)-c)>0)
 a=x;
 else
 b=x;
