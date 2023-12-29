@@ -7,10 +7,10 @@
 
 Kompilējot un palaižot kodu, lietotājam ir dota iespēja ievadīt ```a```,```b``` un ```c``` vērtības, kā arī vēlāmo atbildes precizitāti.
 
-```a``` ir funkcijas kreisā robeža,\n/n
-```b``` ir funkcijas labā robeža,\n
-```c``` ir funkcijas vertikālā nobīde,\n
-atbildes precizitāte ir ciparu skaits pēc "." atbildē.
+```a``` ir funkcijas kreisā robeža,  
+```b``` ir funkcijas labā robeža,  
+```c``` ir funkcijas vertikālā nobīde,  
+atbildes precizitāte ir ciparu skaits pēc "." atbildē.  
 
 Pēc datu ievadīšanas kods pārbaudīs, vai ```y = 0``` var eksistēt starp ```a``` un ```b``` robežām, aprēķinot un pārbaudot, vai ```atan(a)+c``` un ```atan(b)+c``` ir vienādās zīmes. Ja ```(atan(a)+c) * (atan(b)+c) > 0``` tad abas vērtības atrodas vai nu zem vai nu virs "nulles", kas nozīmē, ka ```y = 0``` starp tiem neeksistē.
 
@@ -36,12 +36,12 @@ b=x;
 ```
 Piemēram, atradīsim "nulles" vērtību funkcijai ```y = atan(x) - 0.5```.
 
-```a = -3```,
-```b = 3```,
-```c = -0.5```,
-Precizitāte = ```3```;
+```a = -3```,  
+```b = 3```,  
+```c = -0.5```,  
+Precizitāte = ```3```;  
 
-Koda izeja:
+Koda izeja:  
 ```
 Sakne atrodas pie x=0.546,jo atan(x)+-0.500000 ir 0.000
 
