@@ -3,7 +3,7 @@
 ![test](https://github.com/atrkv/RTR105/blob/main/labd/lab3/derivative.png)
 
 ## atan_derivative.c
-Izmantojot sekojošās formulas, uzrakstījām kodu, kurš izraksta x, atan(x), atan(x)', un atan(x)'' vērtības izmantojot divas atvasināšanas metodes:
+Izmantojot sekojošās formulas, uzrakstījām kodu, kurš izraksta ```x```, ```atan(x)```, ```atan(x)'```, un ```atan(x)''``` vērtības izmantojot divas atvasināšanas metodes:
 
 ![test1](https://github.com/atrkv/RTR105/blob/main/labd/lab3/junk/1.PNG)
 
@@ -15,7 +15,7 @@ printf("%10.2f\t%10.2f\n",1/(x*x+1),-2*x/((x*x+1)*(x*x+1)));
 x+=delta_x;
 }
 ```
-Vēlāk kods tika izmainīts (V2), šoreiz saglabājot datus massīvos, nevis parasti izrakstot tos terminālā, kā arī masīvi izmantoja datus iepriekš ierakstītus citos masīvos. Piemēram, aprēķinos vairs nav izmantots "delta_x", bet tas tiek aprēķināts no X un iepriekšējās X vērtības.
+Vēlāk kods tika izmainīts (V2), šoreiz saglabājot datus massīvos, nevis parasti izrakstot tos terminālā, kā arī masīvi izmantoja datus iepriekš ierakstītus citos masīvos. Piemēram, aprēķinos vairs nav izmantots ```delta_x```, bet tas tiek aprēķināts no ```x``` un iepriekšējās ```x``` vērtības.
 
 ```c
 int n=1;
@@ -50,7 +50,7 @@ Izmantojot ```>>``` operatoru linux sistēmā, ierakstījām atan_derivative.c i
 ...
 ```
 ## derivative.gp
-derivative.gp ir gnuplot kods, kurš attēlo atan(x) funkcijas kā arī punktus ierakstītus derivative.dat failā lai izpildīto darbu varētu pārbaudīt. Redzot, ka atan(x) funkcija un tās dažādas atvasināšanas pārklājas, var secināt, ka darbs ir izpildīts.   
+derivative.gp ir gnuplot kods, kurš attēlo ```atan(x)``` funkcijas kā arī punktus ierakstītus derivative.dat failā lai izpildīto darbu varētu pārbaudīt. Redzot, ka ```atan(x)``` funkcija un tās dažādas atvasināšanas pārklājas, var secināt, ka darbs ir izpildīts.   
 
 ```gnuplot
 plot [0:2*pi] (1/(x*x+1)),\
