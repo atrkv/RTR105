@@ -7,7 +7,7 @@
 
 Kompilējot un palaižot kodu, lietotājam ir dota iespēja ievadīt ```a```,```b``` un ```c``` vērtības, kā arī vēlāmo atbildes precizitāti.
 
-```a``` ir funkcijas kreisā robeža,\n
+```a``` ir funkcijas kreisā robeža,\n/n
 ```b``` ir funkcijas labā robeža,\n
 ```c``` ir funkcijas vertikālā nobīde,\n
 atbildes precizitāte ir ciparu skaits pēc "." atbildē.
