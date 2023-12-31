@@ -9,7 +9,7 @@ Kompilējot un palaižot šo kodu, lietotājam dota iespēja ievadīt ```a``` un
 atbildes precizitāte ir ciparu skaits pēc "." atbildē.  
 
 Pēc datu ievadīšanas, kods aprēķinās platumu zem ```atan(x)``` funkcijas izmantojot trīs dažādas metodes: Taisnstūru, Trapeciju un Simpsona metodi.  
-Šī metodes sadala intervālu no ```a``` līdz ```b``` uz ```n``` daļām. Jo lielāksir daļu (```n```) skaits, jo precizāka ir atbilde.īd
+Šī metodes sadala intervālu no ```a``` līdz ```b``` uz ```n``` daļām. Jo lielāks ir daļu (```n```) skaits, jo precizāka ir atbilde.īd
 Kods atkārto apreķinus palielinot ```n``` skaitu, pēc katras iterācijas salīdzinot iegūto rezultātu ar iepriekšejo. Kods turpina iterēt un meklēt precīzāku atbildi līdz tam brīdim, ka starpība starp rezultātu un iepriekšējo rezultātu apmierina lietotāja vēlamo atbildes precizitāti.
 
 Piemērs:  
