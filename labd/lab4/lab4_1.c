@@ -20,7 +20,6 @@ void main()
 
     // calculation taisnstur
     integr2 = (b - a) * (atan(a) + atan(b)) / n; 
-    printf("%lf\t%lf\t%lf", atan(a), atan(b), ((b - a) * (atan(a) + atan(b)) / n));
     n = 1;
     while (fabs(integr2 - integr1) > eps)
     {
@@ -41,7 +40,6 @@ void main()
         n=2;
         loopvalue=0;
     integr2 = ((b - a)/4) * (atan(a) + atan(b));
-    printf("%lf\t%lf\t%lf", atan(a), atan(b), ((b - a)/4) * (atan(a) + atan(b)));
     n = 1;
     while (fabs(integr2 - integr1) > eps)
     {
@@ -64,7 +62,6 @@ integr2=(h/2)*(atan(a)+loopvalue+atan(b));
         n=2;
         loopvalue=0;
     integr2 = ((b - a)/6) * (atan(a) + atan(b));
-    printf("%lf\t%lf\t%lf", atan(a), atan(b), ((b - a)/6) * (atan(a) + atan(b)));
     n = 1;
     while (fabs(integr2 - integr1) > eps)
     {
