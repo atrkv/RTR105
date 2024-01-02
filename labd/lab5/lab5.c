@@ -5,12 +5,12 @@ int main()
 {
     char arr[5];
     char temp;
-    int repeat0 = 0,repeat1 = 0,repeat2 = 0,repeat3 = 0,repeat4 = 0;
+    int repeatcount[5] = {0, 0, 0, 0, 0}; // count repeats
+    int duplicates[5] = {0, 0, 0, 0, 0};
     printf("\nInput five characters:\n");
     scanf("%c %c %c %c %c", &arr[0], &arr[1], &arr[2], &arr[3], &arr[4]); // Scan for chars
     getchar();                                                            // exclude enter
 
-    printf("\n%c,%c,%c,%c,%c", arr[0], arr[1], arr[2], arr[3], arr[4]);
 
     // sorting loops
     for (int n = 0; n < 5; n++) // repeats second loop five times
@@ -25,48 +25,44 @@ int main()
             }
         }
     }
-    // printf("\n%c,%c,%c,%c,%c", arr[0], arr[1], arr[2], arr[3], arr[4]);
 
-//count duplicates
-    for (int n = 0; n < 4; n++)
+    // count and mark duplicates
+    for (int n = 0; n < 5; n++)
     {
-        for (int k = n+1; k < 5; k++)
+        if (duplicates[n] == 0)
         {
-            if (arr[n] == arr[k])
+            for (int k = 0; k < 5; k++)
             {
-                  if (n = 0)
+                if (arr[n] == arr[k])
                 {
-                    repeat0++;
-                }
-                    if (n = 1)
-                {
-                    repeat1++;
-                }
-                    if (n = 2)
-                {
-                    repeat2++;
-                }
-                 if (n = 3)
-                {
-                    repeat3++;
-                }
-                 if (n = 4)
-                {
-                    repeat4++;
+                    repeatcount[n]++;
+                    duplicates[k] = 1; // marks k-th object as a duplicate to be skipped
                 }
             }
         }
     }
-
+    printf("\nSORTED CHAR: %c,%c,%c,%c,%c",arr[0],arr[1],arr[2],arr[3],arr[4]);
+    printf("\nSORTED INT: %d,%d,%d,%d,%d",arr[0],arr[1],arr[2],arr[3],arr[4]);
     printf("\nMIN:%c", arr[0]);
     printf("\nMAX:%c", arr[4]);
     printf("\nAVG:%c (INT:%d)", ((arr[0] + arr[1] + arr[2] + arr[3] + arr[4]) / 5), ((arr[0] + arr[1] + arr[2] + arr[3] + arr[4]) / 5));
     printf("\nMEDIAN:%c", arr[2]);
+ //  output duplicate info
 
-        if (repeat0==0&&repeat1==0&&repeat2==0&&repeat3==0&&repeat4==0)
+    if (repeatcount[1] == 1 && repeatcount[1] == 1 && repeatcount[2] == 1 && repeatcount[3] == 1 && repeatcount[4] == 1)
+    {
+        printf("\nNo repeats");
+    }
+    else
+    {
+        printf("\n\nRepeats:");
+
+        for (int n = 0; n < 5; n++)
         {
-            printf("\nNo repeats");
-        } else(printf("\nYes repeats"));
-
-    printf("\n%d,%d,%d,%d,%d",repeat0,repeat1,repeat2,repeat3,repeat4);
+            if (repeatcount[n] > 1)
+            {
+                printf("\n%c: %d", arr[n], repeatcount[n]);
+            }
+        }
+    }
 }
