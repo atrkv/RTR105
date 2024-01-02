@@ -56,6 +56,7 @@ Paliek pārbaudīt, vai rindā eksistē modas (atkārtojumi):
 ```
 Kods salīdzina katru ```arr[n]``` un ```arr[k]``` vērtību.  
 Ja vērtības ir vienādas, kods palielina ```n``` simbola "atkārtošanas skaitu" (```repeatcount[n]++```), kā arī atzīmē ```k``` simbolu kā "duplikātu" (```duplicates[k] = 1```), lai turpmākās iterācijas to ignorētu.  
+
 Pēc šī darbības, massīvā ```repeatcount[]``` ir ierakstīti massīva ```arr[]``` simbolu atkārtošanas skaiti:  
 ```1```, ja simbols neatkārtojās,  
 ```>1```, ja simbols atkārtojās,  
