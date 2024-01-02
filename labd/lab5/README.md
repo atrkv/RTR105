@@ -7,5 +7,5 @@ Kompilējot un palaižot kodu, lietotājam ir prasīts ievadīt piecus simbolus,
 
 Kodā ir definēti trīs massīvi:  
 ```arr[5]``` - saglabā lietotāja simbolus,  
-``repeatcount[5]`` - saglabā simbolu atkārtošanas skaitu,
+``repeatcount[5]`` - saglabā simbolu atkārtošanas skaitu,  
 ``duplicates[5]`` - atzīmē ```arr[5]``` simbolus kā "duplikātus".
