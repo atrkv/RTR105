@@ -37,7 +37,7 @@ Pēc šī operācijas jau var atrast minimumu, maksimumu, mediānu un vidējo v�
     printf("\nAVG:%c (INT:%d)", ((arr[0] + arr[1] + arr[2] + arr[3] + arr[4]) / 5), ((arr[0] + arr[1] + arr[2] + arr[3] + arr[4]) / 5));
     printf("\nMEDIAN:%c", arr[2]);
 ```
-Paliek pārbaudīt, vai rindā eksistē modas (atkārtojumui):  
+Paliek pārbaudīt, vai rindā eksistē modas (atkārtojumi):  
 ``` c
     for (int n = 0; n < 5; n++)
     {
